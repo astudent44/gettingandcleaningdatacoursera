@@ -1,0 +1,13 @@
+## Getting and Cleaning Data Course Project
+
+## Dataset
+The dataset provided for this project was the Human Activity Recognition Using Smartphones Data Set from UCI.
+
+## Script
+The run_analysis.R script as written achieves the following:
+1. Sets up the R libraries necessary
+2. Downloads data and unzips it if not already present in the working directory
+3. Reads the data into datatables
+4. Merges the datatables to create a master datatable
+5. Extracts desired data and renames it so it can be understood
+6. Exports the final dataset
